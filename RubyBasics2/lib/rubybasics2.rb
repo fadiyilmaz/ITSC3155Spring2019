@@ -12,5 +12,5 @@ end
 
 # Part III
 def binary_multiple_of_4? s
-  # YOUR CODE HERE
+  return s.match(/^\b(0)\b|\b[01]*00\b/)
 end
